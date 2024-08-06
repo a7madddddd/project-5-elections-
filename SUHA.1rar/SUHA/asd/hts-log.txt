@@ -1,0 +1,28 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 02 Aug 2024 22:18:53 at https://templates.bwlthemes.com/political_buddies/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://templates.bwlthemes.com/political_buddies/index.html -O1 "C:\Users\Orange\Desktop\Project5Template\asd" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/bootstrap/fonts/glyphicons-halflings-regular.eot (from https://templates.bwlthemes.com/political_buddies/libs/bootstrap/styles/bootstrap.min.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/bootstrap/fonts/glyphicons-halflings-regular.eot? (from https://templates.bwlthemes.com/political_buddies/libs/bootstrap/styles/bootstrap.min.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2 (from https://templates.bwlthemes.com/political_buddies/libs/bootstrap/styles/bootstrap.min.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/bootstrap/fonts/glyphicons-halflings-regular.woff (from https://templates.bwlthemes.com/political_buddies/libs/bootstrap/styles/bootstrap.min.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf (from https://templates.bwlthemes.com/political_buddies/libs/bootstrap/styles/bootstrap.min.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/bootstrap/fonts/glyphicons-halflings-regular.svg (from https://templates.bwlthemes.com/political_buddies/libs/bootstrap/styles/bootstrap.min.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/owl.carousel/styles/owl.video.play.png (from https://templates.bwlthemes.com/political_buddies/libs/owl.carousel/styles/owl.carousel.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/venobox/images/preload-circle.png (from https://templates.bwlthemes.com/political_buddies/libs/venobox/styles/venobox.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/venobox/images/close.gif (from https://templates.bwlthemes.com/political_buddies/libs/venobox/styles/venobox.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/venobox/images/prev.gif (from https://templates.bwlthemes.com/political_buddies/libs/venobox/styles/venobox.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/libs/venobox/images/next.gif (from https://templates.bwlthemes.com/political_buddies/libs/venobox/styles/venobox.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/images/about_us_bg.jpg (from https://templates.bwlthemes.com/political_buddies/css/styles.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/images/bg-geometry.png (from https://templates.bwlthemes.com/political_buddies/css/styles.css)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/js/jquery.gmap.min.js (from https://templates.bwlthemes.com/political_buddies/event-single.html)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/element-process.html (from https://templates.bwlthemes.com/political_buddies/element-counter.html)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/element-service.html (from https://templates.bwlthemes.com/political_buddies/element-counter.html)
+22:21:08	Error: 	"Not Found" (404) at link https://templates.bwlthemes.com/political_buddies/Popover requires tooltip.js (from https://templates.bwlthemes.com/political_buddies/libs/bootstrap/scripts/bootstrap.min.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 15 seconds : 120 links scanned, 102 files written (4415895 bytes overall) [3185187 bytes received at 23593 bytes/sec], 1933029 bytes transferred using HTTP compression in 62 files, ratio 31%, 60.0 requests per connection
+(17 errors, 0 warnings, 0 messages)

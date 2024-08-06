@@ -1,0 +1,1011 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<head>
+    <meta charset="utf-8">
+    <title>Political Buddies - Election Campaign & Activism HTML5 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Political Buddies - Election Campaign & Activism HTML5 Template">
+    <meta name="author" content="xenioushk">
+    <link href=@Url.Content("/Content/images/favicon.png") rel="shortcut icon" />
+
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- The styles -->
+    <link href=@Url.Content("/Content/libs/bootstrap/styles/bootstrap.min.css") rel="stylesheet" />
+    <link href=@Url.Content("/Content/libs/font-awesome/font-awesome.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/animate/styles/animate.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/owl.carousel/styles/owl.carousel.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/owl.carousel/styles/owl.theme.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/venobox/styles/venobox.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/css/styles.css") rel="stylesheet" type="text/css">
+
+
+    <style>
+        .highlight-layout-1 figure img {
+            width: 100% !important;
+            display: inline-block !important;
+            clear: both;
+            height: 30vh;
+        }
+        .theme-custom-box-animation{
+            width:100% !important;
+            height: 70vh !important;
+
+        }
+    </style>
+</head>
+<body>
+    <!--  HOME SLIDER BLOCK  -->
+
+    <div class="slider-wrap">
+        <div id="slider_1" class="owl-carousel" data-nav="false" data-dots="true" data-autoplay="true" data-autoplaytimeout="50000">
+
+            <!--  Start First Slider Item  -->
+            <div class="slider_item_container" data-bg_color="#264676" data-bg_opacity="0.1">
+                <video class="background-video" autoplay loop muted playsinline>
+                    <source src="~/Content/images/elect.mp4" type="video/mp4">
+                    <div class="item">
+                        <div class="slider-content">
+                            <div class="container text-left">
+                                <div class="row">
+                                    <div class="slider-bg" data-animation-in="fadeInUp" data-animation-out="fadeInRight">
+                                        <div class="col-sm-12 wow fadeInUp" data-wow-duration="1s">
+                                        </div>
+                                    </div> <!-- end .col-sm-12  -->
+                                </div> <!-- end .row  -->
+                            </div><!-- end .container -->
+                        </div> <!--  end .slider-content -->
+                    </div> <!-- end .item  -->
+            </div> <!-- end .slider_item_container  -->
+            <!--  End First Slider Item  -->
+            <!--  Start Second Slider Item  -->
+            <div class="slider_item_container" data-bg_img="/Content/images/king.jpg" data-bg_color="#111111" data-bg_opacity="0.5">
+                <div class="item">
+                    <div class="slider-content">
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="slider-bg" data-animation-in="fadeInLeft" data-animation-out="zoomInDown">
+                                    <div class="col-sm-12 wow fadeInLeft" data-wow-duration="1s">
+                                        <h3>كن جزءًا من التغيير </h3>
+                                        <h2>
+                                            !متحدين نقف، متفرقين نسقط
+                                        </h2>
+                                        <a href="#" class="btn btn-theme btn-theme margin-top-24">تسجيل الدخول</a>
+                                        <a href="#" class="btn btn-theme btn-theme-invert margin-top-24">الاستعلام عن الخدمات</a>
+                                    </div>
+                                </div> <!-- end .col-sm-12  -->
+                            </div> <!-- end .row  -->
+                        </div><!-- end .container -->
+                    </div> <!--  end .slider-content -->
+                </div> <!-- end .item  -->
+            </div> <!-- end .slider_item_container  -->
+            <!--  End Second Slider Item  -->
+
+        </div> <!-- end .slider_1  -->
+    </div> <!-- end .slider-wrap.  -->
+    <!-- end .slider-wrap.  -->
+    <!--  ABOUT US SECTION  -->
+
+    <section class="section-content-block section-pure-white-bg">
+
+        <div class="container wow slideInUp" id="cardContainer">
+
+            <div class="row section-heading-wrapper">
+
+                <div class="col-md-12 col-sm-12 text-center no-img-separator">
+                    <h2 class="extra-large">PETER'S PROMISES </h2>
+                    <span class="heading-separator heading-separator-horizontal"></span>
+                    <h4>Pellentesque habitant morbi tristique senectus et netus et malesa dalas.</h4>
+
+                </div> <!-- end .col-sm-12  -->
+
+            </div>
+
+            <div class="row">
+
+                <div class="highlight-carousel text-center owl-carousel" data-nav="false" data-dots="true" data-autoplaytimeout="70000">
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="highlight-layout-1 theme-custom-box-shadow theme-custom-box-animation">
+                            <figure><img src="~/Content/images/enti5ab.png" alt="highlights"></figure>
+                            <h5><a href="#">الهيئة المستقلة للإنتخاب</a></h5>
+                            <div> .أنشئت الهيئة بموجب قانون الهيئة المستقلة للانتخاب رقم (11) لسنة (2012). كهيئة مستقلة، وقد أسند لها مسؤولية الإشراف على العملية الانتخابية النيابية في كل مراحلها</div>
+                            <a href="Commission.html" class="btn btn-theme btn-small theme-custom-box-shadow">إقرأ المزيد <i class="fa fa-long-arrow-right"></i></a>
+                        </div> <!--  end .main_highlights  -->
+                    </div> <!--  end .col-md-3  -->
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="highlight-layout-1 theme-custom-box-shadow theme-custom-box-animation">
+                            <figure><img src="~/Content/images/download.jfif" alt="highlight"></figure>
+                            <h5>
+                                <a href="#">
+                                    شروط الترشح
+                                </a>
+                            </h5>
+                            <div>
+                                يشترط فيمن يرغب بالترشح لعضوية مجلس النواب <br> حسب المادة  (10)  ما يلي
+                            </div>
+                        <br />
+                            <a href="pdf/شروط ومرفقات طلب الترشح للدائرة الانتخابية (العامة_محلية) 2024_1-merged.pdf" class="btn btn-theme btn-small theme-custom-box-shadow" download="شروط ومرفقات طلب الترشح للدائرة الانتخابية (العامة_محلية) 2024_1-merged.pdf">إقرأ المزيد <i class="fa fa-long-arrow-right"></i></a>
+                        </div> <!--  end .main_highlights  -->
+                    </div> <!--  end .col-md-3  -->
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="highlight-layout-1 theme-custom-box-shadow theme-custom-box-animation">
+                            <figure><img src="~/Content/images/2024vote.png" alt=""></figure>
+                            <h5>
+                                <a href="#">
+                                    النماذج المطلوبة للترشح للدائرة الانتخابية العامة
+                                </a>
+                            </h5>
+                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dignissim mauris in lobortis pharetra long side.</div>
+                            <a href="#" class="btn btn-theme btn-small theme-custom-box-shadow">إقرأ المزيد  <i class="fa fa-long-arrow-right"></i></a>
+                        </div> <!--  end .main_highlights  -->
+                    </div> <!--  end .col-md-3  -->
+
+
+
+                </div>
+
+            </div>
+
+        </div> <!--  end .container  -->
+
+    </section>
+
+    <!--  FEATURED ABOUT US SECTION-->
+
+    <section class="section-feat-about-us section-custom-bg" data-bg_img="/Content/images/about_us_info_bg.jpg" data-bg_color="#264676" data-bg_opacity="0.3">
+
+        <div class="side-background">
+            <div class="col-md-6 feat-img-side-bg visible-lg">
+                <div class="row">
+                    <img src="/Content/images/about_feat_bg_2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-lg-offset-6 about-us-info-block">
+
+                    <div class="row">
+
+                        <div class="about-us-info text-left wow fadeInLeft">
+
+                            <h3 class="about-us-slogan about-us-slogan-bold text-light-color">
+                                OUR <i class="text-curly text-highlighter-primary">MISSION </i><br>  IS TO BRING CHANGE !<br>
+                            </h3>
+
+                            <div class="margin-top-48 text-light-color">
+
+                                <p class="text-light-color padding-top-24">
+                                    Unity is strength.
+                                    Nation need all of us working side by side for it's betterment. We promise to fulfill
+                                    all our promises if you support us.
+                                    We can build a progressive nation together. Yes we can! <br>
+                                </p>
+
+                                <p class="margin-top-24 text-light-color">
+                                    <img src="/Content/images/signature.png" alt="">
+                                    <br>
+                                    <strong>Brandon Munson</strong> <br>CEO, Political Buddies
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section> <!--  end .section-about-us -->
+    <!--  SECTION CAMPAIGNS   -->
+
+    <section class="section-content-block">
+
+        <div class="container wow slideInUp">
+
+            <div class="row section-heading-wrapper">
+
+                <div class="col-md-12 col-sm-12 text-left no-img-separator">
+                    <h2>OUR CAMPAIGNS</h2>
+                    <span class="heading-separator heading-separator-horizontal"></span>
+                    <h4>
+                        Join and be a part of our campaigns and make it successful. Your awesome support and fluent participation
+                        is necessary for a successful campaign.
+                    </h4>
+                </div> <!-- end .col-sm-12  -->
+
+            </div> <!-- end .row  -->
+
+            <div class="row">
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="#">
+                                <img src="/Content/images/event_1.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <a class="event-date" href="#"><i class="fa fa-calendar-o"></i> 14 January, 2018</a>
+                            <h4>
+                                <a href="#">Build Nation Together</a>
+                            </h4>
+                            <div class="event-exceprt">Lorem ipsum dolor sit amet turadipi scing elit lobort issim consecte dign pharetra mauris.</div>
+                            <div class="event-time">
+                                <a href="#"><i class="fa fa-clock-o"></i> 10.00 - 3.00</a>
+                                <a href="#"> <i class="fa fa-map-marker"></i> California, USA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="#">
+                                <img src="/Content/images/event_3.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <a class="event-date" href="#"><i class="fa fa-calendar-o"></i> 14 January, 2018</a>
+                            <h4>
+                                <a href="#">Stop National Racism</a>
+                            </h4>
+                            <div class="event-exceprt">Lorem ipsum dolor sit amet turadipi scing elit lobort issim consecte dign pharetra mauris.</div>
+                            <div class="event-time">
+                                <a href="#"><i class="fa fa-clock-o"></i> 10.00 - 3.00</a>
+                                <a href="#"> <i class="fa fa-map-marker"></i> California, USA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="#">
+                                <img src="/Content/images/event_4.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <a class="event-date" href="#"><i class="fa fa-calendar-o"></i> 14 January, 2018</a>
+                            <h4>
+                                <a href="#">Freedom People Voice</a>
+                            </h4>
+                            <div class="event-exceprt">Lorem ipsum dolor sit amet turadipi scing elit lobort issim consecte dign pharetra mauris.</div>
+                            <div class="event-time">
+                                <a href="#"><i class="fa fa-clock-o"></i> 10.00 - 3.00</a>
+                                <a href="#"> <i class="fa fa-map-marker"></i> California, USA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="#">
+                                <img src="/Content/images/event_2.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <a class="event-date" href="#"><i class="fa fa-calendar-o"></i> 14 January, 2018</a>
+                            <h4>
+                                <a href="#">Ensure Hear & Heard</a>
+                            </h4>
+                            <div class="event-exceprt">Lorem ipsum dolor sit amet turadipi scing elit lobort issim consecte dign pharetra mauris.</div>
+                            <div class="event-time">
+                                <a href="#"><i class="fa fa-clock-o"></i> 10.00 - 3.00</a>
+                                <a href="#"> <i class="fa fa-map-marker"></i> California, USA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12 text-center">
+                    <a class="btn btn-theme margin-top-48" href="#">Load All Campaigns</a>
+                </div>
+            </div>
+
+        </div> <!--  end .container  -->
+
+    </section>
+
+    <!--  COUNTDOWN SECTION  -->
+
+    <section class="section-content-block section-custom-bg" data-bg_img='/Content/images/vote_countdown.jpg' data-bg_size='cover' data-bg_position='center center' data-bg_opacity="0" data-b>
+
+        <div class="container">
+
+            <div class="row section-heading-wrapper-alt">
+
+                <div class="col-md-12 col-sm-12 text-center no-img-separator">
+                    <h4>Vote For Us</h4>
+                    <span class="heading-separator heading-separator-horizontal"></span>
+                    <h2 class="extra-large">GET READY FOR ELECTION</h2>
+
+                </div> <!-- end .col-sm-10  -->
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-12 text-center wow zoomIn">
+                    <div id="countdown_block" data-countdown_date="2026/03/27"></div>
+                </div> <!-- end .col-sm-12  -->
+
+            </div> <!-- end .row  -->
+
+        </div> <!-- end .container-fluid  -->
+
+    </section> <!-- end .activity-section-1  -->
+    <!--  SECTION ACHIEVEMENTS   -->
+
+    <section class="section-content-block section-secondary-bg">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                    <div class="row section-heading-wrapper">
+
+                        <div class="col-md-12 col-sm-12 text-left no-img-separator">
+                            <h4>Why Vote Us?</h4>
+                            <span class="heading-separator heading-separator-horizontal"></span>
+                            <h2>OUR ACHIEVEMENTS</h2>
+
+                        </div> <!-- end .col-sm-10  -->
+
+                    </div>
+
+                    <div class="about-details">
+
+                        <ul class="custom-bullet-list wow slideInUp">
+                            <li>Biggest job growth over <strong>seventy percent</strong> in manufacturing company. Lorem ipsum dolor sit amet.</li>
+                            <li><strong>Decreased unemployment</strong> and cut the poverty to half.</li>
+                            <li>Ended <strong>racial discrimination</strong> last year in every sector to ensure progess. Morbi dignissim mauris in lobortis pharetra.</li>
+                            <li>Deficit cut by <strong>three-quarters</strong> all the year round.</li>
+                            <li>Increased clean energy uses in <strong>production level</strong>.</li>
+                            <li>Greatly improved benifiys for <strong>veterans</strong> and others.</li>
+                        </ul>
+
+                    </div> <!--  end .about-details -->
+
+                </div> <!--  end col-lg-6  -->
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-xs">
+
+                    <figure class="theme-custom-box-shadow wow fadeIn">
+                        <img src="/Content/images/achievements.jpg" alt="achievements" class="db">
+                    </figure>
+
+                </div> <!--  end .col-lg-6 -->
+
+            </div> <!--  end .row  -->
+
+            <div class="row wow fadeIn margin-top-24">
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="counter-block-1 text-center">
+
+                        <i class="fa fa-gavel icon"></i>
+                        <span class="counter">2578</span>
+                        <h4 class="text-capitalize">Global Campaigns</h4>
+
+                    </div>
+
+                </div> <!--  end .col-lg-3  -->
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="counter-block-1 text-center">
+
+                        <i class="fa fa-building icon"></i>
+                        <span class="counter">3235</span>
+                        <h4 class="text-capitalize">Hi-tech Industrial Parks</h4>
+
+                    </div>
+
+                </div> <!--  end .col-lg-3  -->
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="counter-block-1 text-center">
+
+                        <i class="fa fa-users icon"></i>
+                        <span class="counter">3568</span>
+                        <h4 class="text-capitalize">Active contributors</h4>
+
+                    </div>
+
+                </div> <!--  end .col-lg-3  -->
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="counter-block-1 text-center">
+
+                        <i class="fa fa-building icon"></i>
+                        <span class="counter">1364</span>
+                        <h4 class="text-capitalize">Parliament Members</h4>
+
+                    </div>
+
+                </div> <!--  end .col-lg-3  -->
+
+
+            </div> <!-- end row  -->
+
+        </div> <!--  end .container -->
+
+    </section>  <!--  end .appointment-section  -->
+    <!-- SECTION TEAM   -->
+
+    <section class="section-content-block section-custom-bg" data-bg_img='/Content/images/team_feat_bg.jpg' data-bg_size='cover' data-bg_position='top center' data-bg_opacity="0">
+
+        <div class="container">
+            <div class="row section-heading-wrapper-alt">
+
+                <div class="col-md-12 col-sm-12 text-center no-img-separator">
+                    <h4>Cabinet Members</h4>
+                    <span class="heading-separator heading-separator-horizontal"></span>
+                    <h2 class="extra-large">GROUP OF TALENTED LEADERS</h2>
+
+                </div> <!-- end .col-sm-10  -->
+
+            </div>
+        </div>
+
+        <div class="container wow fadeInLeft">
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="team-layout-1 theme-custom-box-shadow theme-custom-box-animation">
+
+                        <figure class="team-member">
+                            <a href="#" title="ALEXANDER GARY">
+                                <img src="/Content/images/team_9.jpg" alt="ALEXANDER GARY">
+                            </a>
+
+                        </figure> <!-- end. team-member  -->
+
+                        <article class="team-info">
+                            <h3>ALEXANDER GARY</h3>
+                            <h4>Finance Head</h4>
+                        </article>
+
+                        <div class="team-content">
+
+                            <div class="team-social-share text-center clearfix">
+                                <a class="fa fa-facebook rectangle" href="#" title="Facebook"></a>
+                                <a class="fa fa-twitter rectangle" href="#" title="Twitter"></a>
+                                <a class="fa fa-instagram rectangle" href="#" title="Google Plus"></a>
+                                <a class="fa fa-linkedin rectangle" href="#" title="Linkedin"></a>
+                            </div> <!-- end .author-social-box  -->
+
+                        </div>
+
+                    </div> <!--  end team-layout-1 -->
+
+                </div> <!--  end .col-md-4 col-sm-12  -->
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="team-layout-1 theme-custom-box-shadow theme-custom-box-animation">
+
+                        <figure class="team-member">
+                            <a href="#" title="MELISSA MUNOZ">
+                                <img src="/Content/images/team_6.jpg" alt="MELISSA MUNOZ">
+                            </a>
+
+                        </figure> <!-- end. team-member  -->
+
+                        <article class="team-info">
+                            <h3>MELISSA MUNOZ</h3>
+                            <h4>Managing Director</h4>
+                        </article>
+
+                        <div class="team-content">
+
+                            <div class="team-social-share text-center clearfix">
+                                <a class="fa fa-facebook rectangle" href="#" title="Facebook"></a>
+                                <a class="fa fa-twitter rectangle" href="#" title="Twitter"></a>
+                                <a class="fa fa-instagram rectangle" href="#" title="Google Plus"></a>
+                                <a class="fa fa-linkedin rectangle" href="#" title="Linkedin"></a>
+                            </div> <!-- end .author-social-box  -->
+
+                        </div>
+
+                    </div> <!--  end team layout-1 -->
+
+                </div> <!--  end .col-md-4 col-sm-12  -->
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="team-layout-1 theme-custom-box-shadow theme-custom-box-animation">
+
+                        <figure class="team-member">
+                            <a href="#" title="JOHN ABRAHAM">
+                                <img src="/Content/images/team_7.jpg" alt="JOHN ABRAHAM">
+                            </a>
+
+                        </figure> <!-- end. team-member  -->
+
+                        <article class="team-info">
+                            <h3>JOHN ABRAHAM</h3>
+                            <h4>Sr. Support Executive</h4>
+                        </article>
+                        <div class="team-content">
+
+                            <div class="team-social-share text-center clearfix">
+                                <a class="fa fa-facebook rectangle" href="#" title="Facebook"></a>
+                                <a class="fa fa-twitter rectangle" href="#" title="Twitter"></a>
+                                <a class="fa fa-instagram rectangle" href="#" title="Google Plus"></a>
+                                <a class="fa fa-linkedin rectangle" href="#" title="Linkedin"></a>
+                            </div> <!-- end .author-social-box  -->
+
+                        </div>
+
+                    </div> <!--  end team-layout-1 -->
+
+                </div> <!--  end .col-md-4 col-sm-12  -->
+
+
+            </div> <!-- end .row  -->
+
+        </div> <!-- end .container  -->
+
+    </section>
+
+    <!-- HIGHLIGHT CTA  -->
+
+    <section class="section-content-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="cta-section-1 section-secondary-bg text-center theme-custom-box-shadow">
+                        <h2 class="text-capitalize">Become A Part Of Great Work Today</h2>
+                        <p>
+                            You can give support at any of our campaign venues all over the world.
+                            <br>
+                            We have total sixty thousands donor centers and visit thousands of other venues on various occasions.
+                        </p>
+                        <a class="btn btn-theme margin-top-24 wow zoomInLeft" href="#">JOIN WITH US</a>
+                        <a class="btn btn-theme btn-theme-invert margin-top-24 wow zoomInRight" href="#">MAKE A DONATION</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION TESTIMONIAL   -->
+
+    <section class="section-content-block section-custom-bg" data-bg_img='/Content/images/testimony_feat_bg.jpg' data-bg_size='cover' data-bg_position='top center' data-bg_opacity="0">
+
+        <div class="container">
+            <div class="row section-heading-wrapper-alt">
+
+                <div class="col-md-12 col-sm-12 text-center no-img-separator">
+                    <h4>Supporter Words</h4>
+                    <span class="heading-separator heading-separator-horizontal"></span>
+                    <h2 class="extra-large">GET INVOLVE FOR CHANGE</h2>
+
+                </div> <!-- end .col-sm-10  -->
+
+            </div>
+        </div>
+
+        <div class="container theme-custom-box-shadow  section-pure-white-bg wow fadeInUp">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+
+                    <div class="testimonial-container owl-carousel text-left" data-items="1">
+
+                        <div class="col-md-12 col-sm-12">
+
+                            <div class="testimony-layout-1">
+                                <h3 class="people-quote">Our Testimonial</h3>
+                                <p class="testimony-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac purus ut metus interdum ultricies
+                                    at et lacus. Aenean scelerisque scelerisque est venenatis pretium. Ut et varius risus.
+                                </p>
+
+                                <img src="/Content/images/user_1.jpg" alt="">
+                                <h6>Brandon Munson</h6>
+                                <span>CTO, Fulcrum Design, USA</span>
+
+                            </div> <!-- end .testimony-layout-1  -->
+
+                        </div> <!--  end col-md-10  -->
+
+                        <div class="col-md-12 col-sm-12">
+
+                            <div class="testimony-layout-1">
+                                <h3 class="people-quote">Our Testimonial</h3>
+                                <p class="testimony-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac purus ut metus interdum ultricies
+                                    at et lacus. Aenean scelerisque scelerisque est venenatis pretium. Ut et varius risus.
+                                </p>
+
+                                <img src="/Content/images/user_2.jpg" alt="">
+                                <h6>Munson Brandon</h6>
+                                <span>CTO, Fulcrum Design, USA</span>
+
+                            </div> <!-- end .testimony-layout-1  -->
+
+                        </div> <!--  end col-md-10  -->
+
+                        <div class="col-md-12 col-sm-12">
+
+                            <div class="testimony-layout-1">
+                                <h3 class="people-quote">Our Testimonial</h3>
+                                <p class="testimony-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac purus ut metus interdum ultricies
+                                    at et lacus. Aenean scelerisque scelerisque est venenatis pretium. Ut et varius risus.
+                                </p>
+
+                                <img src="/Content/images/user_3.jpg" alt="">
+                                <h6>Logan Munson</h6>
+                                <span>CTO, Fulcrum Design, USA</span>
+
+                            </div> <!-- end .testimony-layout-1  -->
+
+                        </div> <!--  end col-md-10  -->
+
+                    </div>  <!--  end .row  -->
+                </div>
+
+                <div class="col-lg-6 hidden-md hidden-xs hidden-sm no-padding">
+                    <figure>
+                        <img src="/Content/images/testimony_feat_img.jpg" class="db" alt="">
+                    </figure>
+                </div>
+
+            </div>
+
+
+
+        </div> <!-- end .container  -->
+
+    </section>
+
+    <!--  SECTION GALLERY  -->
+
+    <section class="section-content-block section-pure-white-bg">
+
+        <div class="container">
+
+            <div class="row section-heading-wrapper">
+
+                <div class="col-md-12 col-sm-12 text-center no-img-separator">
+                    <h2>OUR GALLERY</h2>
+                    <span class="heading-separator"></span>
+                    <h4>Our prestigious voluntary work on campaigns by the team</h4>
+                </div> <!-- end .col-sm-10  -->
+
+
+            </div> <!-- end .row  -->
+
+        </div> <!--  end .container -->
+
+        <div class="container wow fadeInUp">
+
+            <div class="row no-padding-gallery">
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 gallery-container">
+
+                    <a class="gallery-light-box" data-gall="myGallery" href="/Content/images/gallery_1.jpg">
+
+                        <figure class="gallery-img">
+
+                            <img src="/Content/images/gallery_1.jpg" alt="gallery image">
+
+                        </figure> <!-- end .gallery-img  -->
+
+                    </a>
+
+                </div><!-- end .col-sm-3  -->
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 gallery-container">
+
+                    <a class="gallery-light-box" data-gall="myGallery" href="/Content/images/gallery_2.jpg">
+
+                        <figure class="gallery-img">
+
+                            <img src="/Content/images/gallery_2.jpg" alt="gallery image">
+
+                        </figure> <!-- end .gallery-img  -->
+
+                    </a> <!-- end .gallery-light-box  -->
+
+                </div><!-- end .col-sm-3  -->
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 gallery-container">
+
+                    <a class="gallery-light-box" data-gall="myGallery" href="/Content/images/gallery_3.jpg">
+
+                        <figure class="gallery-img">
+
+                            <img src="/Content/images/gallery_3.jpg" alt="gallery image">
+
+                        </figure> <!-- end .gallery-img  -->
+
+                    </a>
+
+                </div><!-- end .col-sm-3  -->
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 gallery-container">
+
+                    <a class="gallery-light-box" data-gall="myGallery" href="/Content/images/gallery_4.jpg">
+
+                        <figure class="gallery-img">
+
+                            <img src="/Content/images/gallery_4.jpg" alt="gallery image">
+
+                        </figure> <!-- end .gallery-img  -->
+
+                    </a> <!-- end .gallery-light-box  -->
+
+                </div><!-- end .col-sm-3  -->
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 gallery-container">
+
+                    <a class="gallery-light-box" data-gall="myGallery" href="/Content/images/gallery_5.jpg">
+
+                        <figure class="gallery-img">
+
+                            <img src="/Content/images/gallery_5.jpg" alt="gallery image">
+
+                        </figure> <!-- end .gallery-img  -->
+
+                    </a>
+
+                </div><!-- end .col-sm-3  -->
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 gallery-container">
+
+                    <a class="gallery-light-box" data-gall="myGallery" href="/Content/images/gallery_6.jpg">
+
+                        <figure class="gallery-img">
+
+                            <img src="/Content/images/gallery_6.jpg" alt="gallery image">
+
+                        </figure> <!-- end .gallery-img  -->
+
+                    </a> <!-- end .gallery-light-box  -->
+
+                </div><!-- end .col-sm-3  -->
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 gallery-container">
+
+                    <a class="gallery-light-box" data-gall="myGallery" href="/Content/images/gallery_7.jpg">
+
+                        <figure class="gallery-img">
+
+                            <img src="/Content/images/gallery_7.jpg" alt="gallery image">
+
+                        </figure> <!-- end .gallery-img  -->
+
+                    </a> <!-- end .gallery-light-box  -->
+
+                </div><!-- end .col-sm-3  -->
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 gallery-container">
+
+                    <a class="gallery-light-box" data-gall="myGallery" href="/Content/images/gallery_8.jpg">
+
+                        <figure class="gallery-img">
+
+                            <img src="/Content/images/gallery_8.jpg" alt="gallery image">
+
+                        </figure> <!-- end .gallery-img  -->
+
+                    </a> <!-- end .gallery-light-box  -->
+
+                </div><!-- end .col-sm-3  -->
+
+            </div> <!-- end .row  -->
+
+        </div><!-- end .container-fluid  -->
+
+    </section> <!-- end .section-content-block  -->
+    <!--  NEWSLETTER SECTION  -->
+
+    <section class="section-content-block section-custom-bg" data-bg_img="/Content/images/subscribe_bg.jpg" data-bg_repeat="no-repeat" data-bg_size="cover" data-bg_position="top right" data-bg_color="#264676" data-bg_opacity="0.9">
+
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row section-heading-wrapper-alt margin-bottom-5">
+
+                        <div class="col-md-12 col-sm-12 text-left no-img-separator">
+                            <h4>Subscribe Us</h4>
+                            <span class="heading-separator heading-separator-horizontal"></span>
+                            <h2 class="text-capitalize">
+                                CAMPAIGN <br>NEWS & UPDATES
+                            </h2>
+
+                        </div> <!-- end .col-sm-10  -->
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="horizontal-newsletter margin-top-60">
+                        <form id="mc-form" class="mc-form fix" action="#">
+                            <div class="news-subscription square-layout">
+                                <input id="mc-email" name="EMAIL" placeholder="Email Address..." type="email">
+                                <button id="mc-submit" type="submit"> Submit</button>
+                            </div>
+                        </form>
+                    </div> <!--  end .footer-widget  -->
+                </div>
+            </div>
+
+        </div>
+
+    </section> <!-- end .section-newsletter"  -->
+    <!-- BLOG SECTION  -->
+
+    <section class="section-content-block section-home-blog section-pure-white-bg">
+
+        <div class="container wow fadeInUp">
+
+            <div class="row section-heading-wrapper">
+
+                <div class="col-md-12 col-sm-12 text-center no-img-separator">
+                    <h2>RECENT BLOG</h2>
+                    <span class="heading-separator"></span>
+                    <h4>Latest news and statements regarding giving political movements</h4>
+                </div> <!-- end .col-sm-10  -->
+
+            </div> <!-- end .row  -->
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-offset-0 col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
+
+                    <div class="latest-news-container theme-custom-box-shadow theme-custom-box-animation">
+
+                        <a href="#">
+                            <figure>
+                                <img src="/Content/images/blog_thumb_1.jpg" alt="latest news">
+                            </figure>
+                        </a>
+
+                        <div class="news-content">
+
+                            <h3>
+                                <a href="#" class="text-capitalize">Try being informed instead of just opinionated</a>
+                            </h3>
+
+                            <div class="news-meta-info">
+                                <i class="fa fa-clock-o"></i> April 4, 2018
+                                &nbsp; <i class="fa fa-comment-o"></i> 10 Comments
+                            </div>
+
+                            <div class="update-details">
+                                Lorem ipsum dolor sit amet, consect etur adipiscing elit. Nulla diam neque morbi dignissim mauris.
+                            </div>
+
+                        </div>
+
+                    </div><!--  end .update-info  -->
+
+                </div> <!--  end col-lg-4  -->
+
+                <div class="col-lg-4 col-md-offset-0 col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
+
+                    <div class="latest-news-container theme-custom-box-shadow theme-custom-box-animation">
+
+                        <a href="#">
+                            <figure>
+                                <img src="/Content/images/blog_thumb_2.jpg" alt="latest news">
+                            </figure>
+                        </a>
+
+                        <div class="news-content">
+
+                            <h3>
+                                <a href="#" class="text-capitalize">How the future of america is shaped by politicians</a>
+                            </h3>
+
+                            <div class="news-meta-info">
+                                <i class="fa fa-clock-o"></i> April 4, 2018
+                                &nbsp; <i class="fa fa-comment-o"></i> 10 Comments
+                            </div>
+
+                            <div class="update-details">
+                                Lorem ipsum dolor sit amet, consect etur adipiscing elit. Nulla diam neque morbi dignissim mauris.
+                            </div>
+
+                        </div>
+
+                    </div><!--  end .update-info  -->
+
+                </div> <!--  end col-lg-4  -->
+
+                <div class="col-lg-4 col-md-offset-0 col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
+
+                    <div class="latest-news-container theme-custom-box-shadow theme-custom-box-animation">
+
+                        <a href="#">
+                            <figure>
+                                <img src="/Content/images/blog_thumb_3.jpg" alt="latest news">
+                            </figure>
+                        </a>
+
+                        <div class="news-content">
+
+                            <h3>
+                                <a href="#" class="text-capitalize">Immigration is the American Citizenship right way</a>
+                            </h3>
+
+                            <div class="news-meta-info">
+                                <i class="fa fa-clock-o"></i> April 4, 2018
+                                &nbsp; <i class="fa fa-comment-o"></i> 10 Comments
+                            </div>
+
+                            <div class="update-details">
+                                Lorem ipsum dolor sit amet, consect etur adipiscing elit. Nulla diam neque morbi dignissim mauris.
+                            </div>
+
+                        </div>
+
+                    </div><!--  end .update-info  -->
+
+                </div> <!--  end col-lg-4  -->
+
+            </div> <!-- end row  -->
+
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-md-offset-4 text-center">
+                    <a href="#" class="btn btn-theme margin-top-48">- Load More Blog -</a>
+                </div>
+            </div> <!-- end .row  -->
+
+        </div> <!-- end .container  -->
+
+    </section> <!--  end .section-latest-blog -->
+
+    <a id="backTop">Back To Top</a>
+
+    <script src="@Url.Content("/Content/libs/jquery/scripts/jquery.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/bootstrap/scripts/bootstrap.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/wow/scripts/wow.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/jquery.backTop/scripts/jquery.backTop.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/waypoints/scripts/waypoints.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/waypoints/scripts/waypoints-sticky.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/owl.carousel/scripts/owl.carousel.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/jquery.stellar/scripts/jquery.stellar.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/jquery.counterup/scripts/jquery.counterup.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/venobox/scripts/venobox.min.js")"></script>
+    <script src="@Url.Content("/Content/libs/jquery.countdown/scripts/jquery.countdown.min.js")"></script>
+    <script src="@Url.Content("/Content/js/custom-scripts.js")"></script>
+
+</body>
