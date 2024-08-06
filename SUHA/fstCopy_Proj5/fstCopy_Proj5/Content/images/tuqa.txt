@@ -1,0 +1,126 @@
+@model IEnumerable<election_3.Models.Debates>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+    
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/site.css"> <!-- اضمن أن الملف موجود في مجلد Content -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- يمكنك استخدام Bootstrap للتنسيق -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">الصفحة الرئيسية ( مناظرات)</a>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- البطاقة 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-rocket fa-3x mb-3"></i> <!-- أيقونة -->
+                        <h5 class="card-title">
+                            Overview of the importance of debates.
+                        </h5>
+                        <p class="card-text">تفاصيل المناظرة الرئاسية القادمة وكيفية متابعة الأحداث.</p>
+                        <a href="https://ar.wikipedia.org/wiki/%D9%85%D9%86%D8%A7%D8%B8%D8%B1%D8%A9" class="btn btn-primary">اقرأ المزيد</a> <!-- رابط للتفاصيل -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- البطاقة 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-calendar-day fa-3x mb-3"></i> <!-- أيقونة -->
+                        <h5 class="card-title">
+                            Links to key upcoming or past debates.
+                        </h5>
+                        <p class="card-text">اطلع على مواعيد المناظرات والأحداث السياسية المقبلة.</p>
+                        <a href="https://www.iec.jo/ar/%D8%B1%D9%88%D8%A7%D8%A8%D8%B7-%D9%85%D9%81%D9%8A%D8%AF%D8%A9" class="btn btn-primary">اقرأ المزيد</a> <!-- رابط للتفاصيل -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- البطاقة 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-info-circle fa-3x mb-3"></i> <!-- أيقونة -->
+                        <h5 class="card-title">
+                            News and updates related to debates.
+                        </h5>
+                        <p class="card-text">احصل على معلومات إضافية حول المناظرات وكيفية المشاركة.</p>
+                        <a href="https://www.iec.jo/ar" class="btn btn-primary">اقرأ المزيد</a> <!-- رابط للتفاصيل -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<main class="container mt-4">-->
+    <!-- قائمة المناظرات -->
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+    <div class="card mb-4">
+        <div class="card-header">
+            <h2>قائمة المناظرات</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                @Html.ActionLink("إنشاء جديد", "Create", "Debates", null, new { @class = "btn btn-primary" })
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.DebateTitle)</th>
+                        <th>@Html.DisplayNameFor(model => model.DebateDate)</th>
+                        <th>@Html.DisplayNameFor(model => model.Location)</th>
+                        <th>@Html.DisplayNameFor(model => model.Candidate1ID)</th>
+                        <th>@Html.DisplayNameFor(model => model.Candidate2ID)</th>
+                        <th>@Html.DisplayNameFor(model => model.Description)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.DebateTitle)</td>
+                            <td>@Html.DisplayFor(modelItem => item.DebateDate)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Location)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Candidate1ID)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Candidate2ID)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                            <td>
+                                @Html.ActionLink("تحرير", "Edit", new { id = item.DebateID }) |
+                                @Html.ActionLink("تفاصيل", "Details", new { id = item.DebateID }) |
+                                @Html.ActionLink("حذف", "Delete", new { id = item.DebateID })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    @*</main>*@
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    @*<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>*@
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

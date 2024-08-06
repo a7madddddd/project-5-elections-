@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|c:\\users\\orange\\desktop\\suha (1)\\suha\\fstcopy_proj5\\fstcopy_proj5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstcopy_proj5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Views\\Shared\\_MainLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Views\\Shared\\_MainLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstcopy_proj5\\models\\ads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstcopy_proj5\\models\\ads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Content\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstcopy_proj5\\content\\libs\\bootstrap\\styles\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstcopy_proj5\\content\\libs\\bootstrap\\styles\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Content\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Controllers\\DATEsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Controllers\\DATEsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\js\\custom-scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Content\\js\\custom-scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstcopy_proj5\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstcopy_proj5\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Models\\Model1.Context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Models\\Model1.Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Models\\Model1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Models\\Model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstcopy_proj5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstcopy_proj5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\index1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FBF41DC-C892-40BE-BFD2-31DFA7D1FCAB}|fstCopy_Proj5\\fstCopy_Proj5.csproj|solutionrelative:fstCopy_Proj5\\Content\\index1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "fstCopy_Proj5\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwEIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T06:17:19.883Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\libs\\bootstrap\\styles\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Content\\libs\\bootstrap\\styles\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\libs\\bootstrap\\styles\\bootstrap.min.css",
+              "RelativeToolTip": "fstCopy_Proj5\\Content\\libs\\bootstrap\\styles\\bootstrap.min.css",
+              "ViewState": "AQIAABYPAAAAAAAAAAAqwDAPAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T15:02:51.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.cs",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Models\\Model1.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.cs",
+              "RelativeToolTip": "fstCopy_Proj5\\Models\\Model1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:56:04.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ads.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Ads.cs",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Models\\Ads.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Ads.cs",
+              "RelativeToolTip": "fstCopy_Proj5\\Models\\Ads.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:55:50.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "fstCopy_Proj5\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:42:20.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DATEsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Controllers\\DATEsController.cs",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Controllers\\DATEsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Controllers\\DATEsController.cs",
+              "RelativeToolTip": "fstCopy_Proj5\\Controllers\\DATEsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:17:51.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Models\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "fstCopy_Proj5\\Models\\Model1.Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:11:22.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Designer.cs",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Models\\Model1.Designer.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Designer.cs",
+              "RelativeToolTip": "fstCopy_Proj5\\Models\\Model1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:11:12.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Models\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.Context.tt",
+              "RelativeToolTip": "fstCopy_Proj5\\Models\\Model1.Context.tt",
+              "ViewState": "AQIAAE0BAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-05T10:10:50.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Model1.edmx",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Models\\Model1.edmx",
+              "RelativeToolTip": "fstCopy_Proj5\\Models\\Model1.edmx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-05T10:06:09.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "custom-scripts.js",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\js\\custom-scripts.js",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Content\\js\\custom-scripts.js",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\js\\custom-scripts.js",
+              "RelativeToolTip": "fstCopy_Proj5\\Content\\js\\custom-scripts.js",
+              "ViewState": "AQIAAGEEAAAAAAAAAAAAAHAEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-05T07:49:11.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\css\\styles.css",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Content\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\css\\styles.css",
+              "RelativeToolTip": "fstCopy_Proj5\\Content\\css\\styles.css",
+              "ViewState": "AQIAAC0QAAAAAAAAAAAqwCkQAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T12:07:42.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index1.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\index1.html",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Content\\index1.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\index1.html",
+              "RelativeToolTip": "fstCopy_Proj5\\Content\\index1.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T11:51:41.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "fstCopy_Proj5\\Views\\Shared\\_MainLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T06:12:26.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\index.html",
+              "RelativeDocumentMoniker": "fstCopy_Proj5\\Content\\index.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\SUHA (1)\\SUHA\\fstCopy_Proj5\\fstCopy_Proj5\\Content\\index.html",
+              "RelativeToolTip": "fstCopy_Proj5\\Content\\index.html",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-03T06:13:06.625Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

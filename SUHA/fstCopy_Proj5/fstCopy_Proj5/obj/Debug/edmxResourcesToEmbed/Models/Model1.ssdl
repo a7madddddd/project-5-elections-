@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ElectionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Election.dbo.Ads' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Ads">
+    <Key>
+      <PropertyRef Name="Titel" />
+      <PropertyRef Name="Content" />
+      <PropertyRef Name="payment" />
+      <PropertyRef Name="StartDate" />
+      <PropertyRef Name="EndDate" />
+    </Key>
+    <Property Name="Titel" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Content" Type="varchar(max)" Nullable="false" />
+    <Property Name="payment" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="statsOfAds" Type="varchar" MaxLength="100" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="ContactID" />
+    </Key>
+    <Property Name="ContactID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SenderName" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="SenderEmail" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Message" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SubmissionDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DATES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="startDateNominate" Type="datetime" />
+    <Property Name="EndDateNominate" Type="datetime" />
+    <Property Name="startDateOfElection" Type="datetime" />
+    <Property Name="EndDateOfElection" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Debates">
+    <Key>
+      <PropertyRef Name="DebateID" />
+    </Key>
+    <Property Name="DebateID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DebateTitle" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="DebateDate" Type="datetime" Nullable="false" />
+    <Property Name="Location" Type="nvarchar" MaxLength="255" />
+    <Property Name="Candidate1ID" Type="int" Nullable="false" />
+    <Property Name="Candidate2ID" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="GeneralListCandidates">
+    <Key>
+      <PropertyRef Name="CandidateID" />
+    </Key>
+    <Property Name="CandidateID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CandidateName" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="GeneralListingID" Type="int" />
+  </EntityType>
+  <EntityType Name="GeneralListing">
+    <Key>
+      <PropertyRef Name="GeneralListingID" />
+    </Key>
+    <Property Name="GeneralListingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="NumberOfVotes" Type="int" />
+  </EntityType>
+  <EntityType Name="LocalList">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ListName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="NumberOfVotes" Type="int" />
+    <Property Name="ElectionArea" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Governorate" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LocalListCandidates">
+    <Key>
+      <PropertyRef Name="CandidateID" />
+    </Key>
+    <Property Name="CandidateID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CandidateName" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="NationalNumber" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Governorate" Type="nvarchar" MaxLength="100" />
+    <Property Name="ElectionArea" Type="nvarchar" MaxLength="255" />
+    <Property Name="NumberOfVotesCandidate" Type="int" />
+    <Property Name="LocalListingID" Type="int" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentID" />
+    </Key>
+    <Property Name="PaymentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentMethod" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransactionID" Type="nvarchar" MaxLength="100" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NationalNumber" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="25" />
+    <Property Name="FullName" Type="varchar" MaxLength="50" />
+    <Property Name="ElectionArea" Type="varchar" MaxLength="255" />
+    <Property Name="Governorate" Type="varchar" MaxLength="50" />
+    <Property Name="BirthDate" Type="date" />
+    <Property Name="Gender" Type="varchar" MaxLength="10" />
+    <Property Name="LocalElections" Type="bit" />
+    <Property Name="PartyElections" Type="bit" />
+    <Property Name="whitePaperLocalElections" Type="bit" />
+    <Property Name="whitePaperPartyElections" Type="bit" />
+  </EntityType>
+  <Association Name="FK__Debates__Candida__534D60F1">
+    <End Role="LocalListCandidates" Type="Self.LocalListCandidates" Multiplicity="1" />
+    <End Role="Debates" Type="Self.Debates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocalListCandidates">
+        <PropertyRef Name="CandidateID" />
+      </Principal>
+      <Dependent Role="Debates">
+        <PropertyRef Name="Candidate1ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Debates__Candida__5441852A">
+    <End Role="LocalListCandidates" Type="Self.LocalListCandidates" Multiplicity="1" />
+    <End Role="Debates" Type="Self.Debates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocalListCandidates">
+        <PropertyRef Name="CandidateID" />
+      </Principal>
+      <Dependent Role="Debates">
+        <PropertyRef Name="Candidate2ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GeneralLi__Gener__4BAC3F29">
+    <End Role="GeneralListing" Type="Self.GeneralListing" Multiplicity="0..1" />
+    <End Role="GeneralListCandidates" Type="Self.GeneralListCandidates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GeneralListing">
+        <PropertyRef Name="GeneralListingID" />
+      </Principal>
+      <Dependent Role="GeneralListCandidates">
+        <PropertyRef Name="GeneralListingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LocalList__Local__45F365D3">
+    <End Role="LocalList" Type="Self.LocalList" Multiplicity="0..1" />
+    <End Role="LocalListCandidates" Type="Self.LocalListCandidates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocalList">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LocalListCandidates">
+        <PropertyRef Name="LocalListingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ElectionModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact" EntityType="Self.Contact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATES" EntityType="Self.DATES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Debates" EntityType="Self.Debates" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GeneralListCandidates" EntityType="Self.GeneralListCandidates" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GeneralListing" EntityType="Self.GeneralListing" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LocalList" EntityType="Self.LocalList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LocalListCandidates" EntityType="Self.LocalListCandidates" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ads" EntityType="Self.Ads" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Ads].[Titel] AS [Titel], 
+    [Ads].[Content] AS [Content], 
+    [Ads].[payment] AS [payment], 
+    [Ads].[statsOfAds] AS [statsOfAds], 
+    [Ads].[StartDate] AS [StartDate], 
+    [Ads].[EndDate] AS [EndDate]
+    FROM [dbo].[Ads] AS [Ads]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Debates__Candida__534D60F1" Association="Self.FK__Debates__Candida__534D60F1">
+      <End Role="LocalListCandidates" EntitySet="LocalListCandidates" />
+      <End Role="Debates" EntitySet="Debates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Debates__Candida__5441852A" Association="Self.FK__Debates__Candida__5441852A">
+      <End Role="LocalListCandidates" EntitySet="LocalListCandidates" />
+      <End Role="Debates" EntitySet="Debates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GeneralLi__Gener__4BAC3F29" Association="Self.FK__GeneralLi__Gener__4BAC3F29">
+      <End Role="GeneralListing" EntitySet="GeneralListing" />
+      <End Role="GeneralListCandidates" EntitySet="GeneralListCandidates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LocalList__Local__45F365D3" Association="Self.FK__LocalList__Local__45F365D3">
+      <End Role="LocalList" EntitySet="LocalList" />
+      <End Role="LocalListCandidates" EntitySet="LocalListCandidates" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

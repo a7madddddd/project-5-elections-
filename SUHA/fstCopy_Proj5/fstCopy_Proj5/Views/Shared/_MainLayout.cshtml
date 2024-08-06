@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title</title>
+    @RenderSection("head", required: false)
+    <meta charset="utf-8">
+    <title>Political Buddies - Election Campaign & Activism HTML5 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Political Buddies - Election Campaign & Activism HTML5 Template">
+    <meta name="author" content="xenioushk">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- The styles -->
+    <link href=@Url.Content("/Content/libs/bootstrap/styles/bootstrap.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/images/favicon.png") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/font-awesome/font-awesome.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/animate/styles/animate.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/owl.carousel/styles/owl.carousel.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/owl.carousel/styles/owl.theme.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/libs/venobox/styles/venobox.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/Content/css/styles.css") rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+</head>
+<body>
+    <div id="preloader">
+        <span class="margin-bottom"><img src="~/Content\images\loader.gif" alt="Loading"></span>
+    </div>
+
+    <!--  HEADER -->
+
+    <!--  HEADER -->
+
+    <header class="main-header clearfix" data-sticky_header="true">
+
+        <div class="top-bar hidden-xs hidden-sm visible-lg visible-md clearfix">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+
+                        <p>
+                            <span><i class="fa fa-phone"></i> <strong>Call Us:</strong> +962-790 000 000</span>
+                            <span>&nbsp;<i class="fa fa-envelope-o"></i> <strong>Email: </strong> support@site.com</span>
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <div class="top-bar-social">
+                            <a href="#"><i class="fa fa-facebook rounded-box"></i></a>
+                            <a href="#"><i class="fa fa-twitter rounded-box"></i></a>
+                            <a href="#"><i class="fa fa-pinterest rounded-box"></i></a>
+                            <a href="#"><i class="fa fa-instagram rounded-box"></i></a>
+                            <a href="#"><i class="fa fa-youtube rounded-box"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2">
+                        <a href="login.html" class="free-estimate">تسجيل الدخول</a>
+                    </div>
+
+                </div>
+
+            </div> <!--  end .container -->
+
+        </div> <!--  end .top-bar  -->
+
+        <div class="header-wrapper navgiation-wrapper">
+
+            <div class="navbar navbar-default">
+                <div class="container">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="logo" href="index.html"><img alt="" src="images/logo.png"></a>
+                    </div>
+
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li><a href="about-us.html" title="About Us">من نحن</a></li>
+                            <li><a href="contact.html">تواصل معنا</a></li>
+                            <li>
+                                <a href="#">الانتخابات المحلية والإدارية</a>
+                                <ul class="drop-down">
+                                    <li><a href="events.html">الانتخابات النيابية</a></li>
+                                    <li><a href="event-single.html">الانتخابات اللامركزية</a></li>
+                                    <li><a href="event-single.html">الانتخابات البلدية </a></li>
+                                </ul>
+                            </li>
+
+                            <li class="drop">
+                                <a href="#">الخدمات</a>
+                                <ul class="drop-down">
+
+                                    <li class="drop">
+                                        <a href="#">الطلبات</a>
+                                        <ul class="drop-down level3">
+                                            <li><a href="element-cta.html">طلب الترشح </a></li>
+                                            <li><a href="element-counter.html">طلب الإعلان</a></li>
+                                            <li><a href="element-logos.html">طلب المناظرات</a></li>
+                                            <!-- <li><a href="element-highlights.html">Highlights Box</a></li>
+                                            <li><a href="element-subscribe.html">Subscribe</a></li>
+                                            <li><a href="element-team.html">Team</a></li>
+                                            <li><a href="element-feedback.html">Testimonials</a></li> -->
+                                        </ul>
+                                    </li>
+
+                                    <li class="drop">
+                                        <a href="#">بوابة الناخبين الرقمية</a>
+                                        <ul class="drop-down level3">
+                                            <li><a href="gallery-1.html">البحث عن طريق الرقم الوطني</a></li>
+                                            <li><a href="gallery-2.html">خرائط الانتخابات النيابية</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li><a href="faq.html" title="FAQ"> الأسئلة الشائعة</a></li>
+                                    <!-- <li class="drop"><a href="#">Level 3</a>
+                                        <ul class="drop-down level3">
+                                            <li><a href="#">Level 3.1</a></li>
+                                            <li><a href="#">Level 3.2</a></li>
+                                            <li><a href="#">Level 3.3</a></li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                            </li>
+
+                            <!-- <li>
+                                <a href="#">Blog</a>
+                                <ul class="drop-down">
+                                    <li><a href="blog.html">All Posts</a></li>
+                                    <li><a href="single.html">Single Page</a></li>
+                                </ul>
+                            </li> -->
+                            <li>
+                                <a href="index.html">الصفحة الرئيسية</a>
+                            </li>
+
+
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header> <!-- end main-header  -->
+    @RenderBody()
+
+    <!-- START FOOTER  -->
+    <footer>
+
+        <section class="footer-widget-area footer-widget-area-bg section-custom-bg" data-bg_img="/Content/images/blue.jpg" data-bg_opacity="0">
+
+            <div class="container">
+
+                <div class="row">
+                  
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                        <div class="about-footer">
+
+                            <div class="row">
+
+                                <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+                                    <figure>
+                                        <img src="images/logo-footer.png" alt="">
+                                    </figure>
+                                    <p>
+                                        We are world largest and trustful democratic political party. We have been working since 1973 with a prestigious vision to helping patient to provide service.
+                                        We are working all over the world, organizing political campaign to grow awareness among the people to peace and happiness.
+                                    </p>
+                                    <div class="footer-social-icons">
+
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+
+                                        <a href="#">
+                                            <i class="fa fa-pinterest"></i>
+                                        </a>
+
+                                    </div>
+                                </div> <!--  end .col-lg-9  -->
+
+                            </div> <!--  end .row -->
+
+                        </div> <!--  end .about-footer  -->
+
+                    </div> <!--  end .col-md-12  -->
+
+                </div> <!--  end .row  -->
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+
+                        <div class="footer-widget">
+                            <div class="sidebar-widget-wrapper">
+                                <div class="footer-widget-header clearfix">
+                                    <h3>Subscribe Us</h3>
+                                </div>
+                                <p>Signup for regular newsletter and stay up to date with our latest news.</p>
+                                <div class="footer-subscription">
+                                    <p>
+                                        <input id="mc4wp_email" class="form-control" required="" placeholder="Enter Your Email" name="EMAIL" type="email">
+                                    </p>
+                                    <p>
+                                        <input class="btn btn-default" value="Subscribe Now" type="submit">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!--  end .col-md-4 col-sm-12 -->
+
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+
+                        <div class="footer-widget clearfix">
+
+                            <div class="sidebar-widget-wrapper">
+
+                                <div class="footer-widget-header clearfix">
+                                    <h3>Support Links</h3>
+                                </div>  <!--  end .footer-widget-header -->
+
+
+                                <ul class="footer-useful-links">
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Thalassemia
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Cell Elofrosis
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Myelodysasia
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Voters Count
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Hemolytimia
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Ychromas Eosis
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Hyrcoagulable
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Thrombo Xtosis
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Sicklenemiaxs
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            Aplastic Anemia
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div> <!--  end .footer-widget  -->
+
+                        </div> <!--  end .footer-widget  -->
+
+                    </div> <!--  end .col-md-4 col-sm-12 -->
+
+
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+
+                        <div class="footer-widget">
+
+                            <div class="sidebar-widget-wrapper">
+
+                                <div class="footer-widget-header clearfix">
+                                    <h3>Contact Us</h3>
+                                </div>  <!--  end .footer-widget-header -->
+
+
+                                <div class="textwidget">
+
+                                    <i class="fa fa-envelope-o fa-contact"></i> <p><a href="#">support@donation.com</a><br><a href="#">helpme@donation.com</a></p>
+
+                                    <i class="fa fa-location-arrow fa-contact"></i> <p>Road-2,3/A East Shibgonj<br>Sylhet-3100, Bangladesh</p>
+
+                                    <i class="fa fa-phone fa-contact"></i> <p>Office:&nbsp; (+880) 0823 560 433<br>Cell:&nbsp; (+880) 0723 161 343</p>
+
+                                </div>
+
+                            </div> <!-- end .footer-widget-wrapper  -->
+
+                        </div> <!--  end .footer-widget  -->
+
+                    </div> <!--  end .col-md-4 col-sm-12 -->
+
+                </div> <!-- end row  -->
+
+            </div> <!-- end .container  -->
+
+        </section> <!--  end .footer-widget-area  -->
+        <!--FOOTER CONTENT  -->
+</body>
+</html>

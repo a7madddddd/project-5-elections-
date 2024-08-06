@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحديد دوائر عجلون وإربد على خريطة الأردن</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 400px;
+            width: 40%;
+            margin: 1%;
+        }
+
+        #controls {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            margin: 5px;
+            padding: 10px;
+            background-color: #c5010b;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #c5010b;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>خريطة دوائر عجلون وإربد على خريطة الأردن</h2>
+
+    <div id="controls">
+        <button class="btn" onclick="focusOnDistrict('ajloun')">عرض دائرة عجلون</button>
+        <button class="btn" onclick="focusOnDistrict('irbid1')">عرض الدائرة الأولى في إربد</button>
+        <button class="btn" onclick="focusOnDistrict('irbid2')">عرض الدائرة الثانية في إربد</button>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- تضمين مكتبة Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- تحديد الخريطة باستخدام JavaScript -->
+    <script>
+        // إنشاء الخريطة وتحديد مركزها على الأردن
+        var map = L.map('map').setView([31.5, 36], 7);
+
+        // إضافة خريطة أساسية
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+        }).addTo(map);
+
+        // بيانات GeoJSON تمثل دوائر عجلون وإربد (افتراضية)
+        var ajlounIrbidGeoJSON = {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "الدائرة الانتخابية - عجلون",
+                        "id": "ajloun",
+                        "center": [32.5, 35.725]
+                    },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [[[35.7, 32.5], [35.75, 32.55], [35.8, 32.5], [35.75, 32.45], [35.7, 32.5]]]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "الدائرة الانتخابية الأولى - إربد",
+                        "id": "irbid1",
+                        "center": [32.6, 35.825]
+                    },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [[[35.8, 32.6], [35.85, 32.65], [35.9, 32.6], [35.85, 32.55], [35.8, 32.6]]]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "الدائرة الانتخابية الثانية - إربد",
+                        "id": "irbid2",
+                        "center": [32.625, 35.875]
+                    },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [[[35.85, 32.6], [35.9, 32.65], [35.95, 32.6], [35.9, 32.55], [35.85, 32.6]]]
+                    }
+                }
+            ]
+        };
+
+        // إضافة الدوائر الانتخابية إلى الخريطة
+        var districtsLayer = L.geoJSON(ajlounIrbidGeoJSON, {
+            onEachFeature: function (feature, layer) {
+                layer.bindPopup("اسم الدائرة: " + feature.properties.name);
+            }
+        }).addTo(map);
+
+        // دالة للتركيز على دائرة معينة عند النقر على الزر
+        function focusOnDistrict(districtId) {
+            var district = ajlounIrbidGeoJSON.features.find(function (feature) {
+                return feature.properties.id === districtId;
+            });
+
+            if (district) {
+                map.setView(district.properties.center, 12);
+                var popup = L.popup()
+                    .setLatLng(district.properties.center)
+                    .setContent("اسم الدائرة: " + district.properties.name)
+                    .openOn(map);
+            }
+        }
+    </script>
+</body>
+
+</html>
